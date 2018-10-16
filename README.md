@@ -8,6 +8,16 @@
 ### you need to create database and run migration and for sure load fixtures
 ### I use nelmio API Doc to help me
 ### I assumed that all lengths inside the json for fixtures is 00:00 without hours
+
+### how did I build this app proccess and thoughts.
+- I created database according to the json file Artist -> Albums -> Songs
+- After that I started to create the fixtures and apply it 
+- Then I start creating controller for artist and another one for album 
+- I always use Nelmio Bundle which helps me in documentation a lot
+- I created Util class to convert from time to seconds and vice versa 
+- I created BaseController to have common functions that I always use in any Controllers 
+
+
 ----------------------------------------------------------------------------------
 # Codebase backend applicants
 
