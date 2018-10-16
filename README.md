@@ -9,7 +9,7 @@
 ### I use nelmio API Doc to help me
 ### I assumed that all lengths inside the json for fixtures is 00:00 without hours
 
-### how did I build this app proccess and thoughts.
+### How did I build this app proccess and thoughts.
 - I created database according to the json file Artist -> Albums -> Songs
 - After that I started to create the fixtures and apply it 
 - Then I start creating controller for artist and another one for album 
@@ -17,6 +17,16 @@
 - I created Util class to convert from time to seconds and vice versa 
 - I created BaseController to have common functions that I always use in any Controllers 
 
+### Time consuming 
+I spent time downloading Docker PHP7.2 because I have 7.1
+Also, to make everything work it took about 80min
+I start work after that I think fixture took about 30-50min
+I start to make APIs it took about 30min
+
+### Important note
+This my fisrt time use Symfony4 
+I use Symfony3.4 for 2.5 years and Symfony2.8 for 1 year
+It's very similar to 3.4 except some new features and directories structure
 
 ----------------------------------------------------------------------------------
 # Codebase backend applicants
