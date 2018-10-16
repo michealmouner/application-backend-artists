@@ -1,3 +1,14 @@
+# My work On the Task
+- I added link to access APIs ( api/doc )
+- Create Fixture to load data
+- Generate Entities
+- Similar Response structure for all APIs
+- handle error for not found artist or album
+
+### you need to create database and run migration and for sure load fixtures
+### I use nelmio API Doc to help me
+### I assumed that all lengths inside the json for fixtures is 00:00 without hours
+----------------------------------------------------------------------------------
 # Codebase backend applicants
 
 In order to judge your developer skills we would like you to do the following task.

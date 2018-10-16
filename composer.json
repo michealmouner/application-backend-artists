@@ -8,11 +8,16 @@
         "ext-json": "*",
         "beberlei/assert": "^3.0",
         "ircmaxell/random-lib": "^1.2",
+        "nelmio/api-doc-bundle": "^3.3",
         "shrikeh/teapot": "^2.3",
+        "symfony/asset": "*",
         "symfony/console": "*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "*",
         "symfony/orm-pack": "^1.0",
+        "symfony/property-access": "*",
+        "symfony/serializer": "*",
+        "symfony/twig-bundle": "*",
         "symfony/yaml": "*"
     },
     "require-dev": {
@@ -62,7 +67,7 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false,
+            "allow-contrib": true,
             "require": "4.1.*"
         }
     }

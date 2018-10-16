@@ -1,0 +1,11 @@
+nelmio_api_doc:
+    models: { use_jms: false }
+    documentation:
+        schemes: [http]
+        info:
+            title: Codebase backend applicants
+            description: My Task!
+            version: 1.0.0
+    areas: # to filter documented areas
+        path_patterns:
+            - ^/(?!api/doc$) # Accepts routes under /api except /api/doc
